@@ -1,0 +1,24 @@
+{
+	"ImportPath": "socbankbot",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v74",
+	"Deps": [
+		{
+			"ImportPath": "github.com/mrd0ll4r/tbotapi",
+			"Rev": "70bddf2f5c6f87dd646f167e11032491bd6f57c2"
+		},
+		{
+			"ImportPath": "github.com/mrd0ll4r/tbotapi/examples/boilerplate",
+			"Rev": "70bddf2f5c6f87dd646f167e11032491bd6f57c2"
+		},
+		{
+			"ImportPath": "golang.org/x/net/publicsuffix",
+			"Rev": "1358eff22f0dd0c54fc521042cc607f6ff4b531a"
+		},
+		{
+			"ImportPath": "gopkg.in/resty.v0",
+			"Comment": "v0.8",
+			"Rev": "0eed47a8f8c2575a34a067585dc0853d91943ac4"
+		}
+	]
+}
