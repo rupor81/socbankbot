@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	apiToken := "237937693:AAGQvVfvHk7imRP46SZg83XssL6_6_yjUQM"
+	apiToken := "123456789:Your_API_token_goes_here"
 
 	updateFunc := func(update tbotapi.Update, api *tbotapi.TelegramBotAPI) {
 		switch update.Type() {
