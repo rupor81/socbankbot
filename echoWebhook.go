@@ -13,7 +13,7 @@ import (
 
 func main() {
 	apiToken := "237937693:AAGQvVfvHk7imRP46SZg83XssL6_6_yjUQM"
-	botHost := "https://socbankbot.heroku.com"
+	botHost := "your.host.com"
 	botPort := uint16(8443)
 	privkey := "private.key"
 	pubkey := "public.pem"
@@ -21,7 +21,6 @@ func main() {
 	updateFunc := func(update tbotapi.Update, api *tbotapi.TelegramBotAPI) {
 		switch update.Type() {
 		case tbotapi.MessageUpdate:
-		
 			msg := update.Message
 			typ := msg.Type()
 			if typ != tbotapi.TextMessage {
