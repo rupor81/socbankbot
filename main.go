@@ -13,7 +13,7 @@ import (
 
 func main() {
 	apiToken := "237937693:AAGQvVfvHk7imRP46SZg83XssL6_6_yjUQM"
-	botHost := "https://socbankbot.heroku.com"
+	botHost := "https://socbankbot.heroku.com/"
 	botPort := uint16(8443)
 	privkey := "private.key"
 	pubkey := "public.pem"
