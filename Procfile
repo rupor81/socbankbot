@@ -1,1 +1,1 @@
-worker: go-getting-started
+worker: 
